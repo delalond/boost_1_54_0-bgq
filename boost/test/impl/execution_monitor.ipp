@@ -173,7 +173,7 @@ namespace { void _set_se_translator( void* ) {} }
 #    endif 
 #  endif 
 
-#  if !defined(__CYGWIN__) && !defined(__QNXNTO__)
+#  if !defined(__CYGWIN__) && !defined(__QNXNTO__)&&! defined(__bgq__)
 #   define BOOST_TEST_USE_ALT_STACK
 #  endif
 
